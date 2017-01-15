@@ -45,6 +45,8 @@
     avcodec_register_all();
     av_register_all();
     avformat_network_init();
+    
+    printf("%s",avutil_configuration());
     // 打开视频文件
     if (avformat_open_input(&XYQFormatCtx, filePath, NULL, NULL) != 0) {
         NSLog(@"打开文件失败");

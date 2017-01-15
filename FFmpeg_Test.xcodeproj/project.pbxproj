@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0411642F1E2B6F8700C53143 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0411642E1E2B6F8700C53143 /* test.mp4 */; };
 		04CD36CB1D3380BB0053D195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD36CA1D3380BB0053D195 /* main.m */; };
 		04CD36CE1D3380BB0053D195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD36CD1D3380BB0053D195 /* AppDelegate.m */; };
 		04CD36D11D3380BB0053D195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD36D01D3380BB0053D195 /* ViewController.m */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0411642E1E2B6F8700C53143 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		04CD36C61D3380BB0053D195 /* FFmpeg_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpeg_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CD36CA1D3380BB0053D195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04CD36CC1D3380BB0053D195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 		04CD36C81D3380BB0053D195 /* FFmpeg_Test */ = {
 			isa = PBXGroup;
 			children = (
+				0411642E1E2B6F8700C53143 /* test.mp4 */,
 				04CD36CC1D3380BB0053D195 /* AppDelegate.h */,
 				04CD36CD1D3380BB0053D195 /* AppDelegate.m */,
 				04CD36CF1D3380BB0053D195 /* ViewController.h */,
@@ -567,6 +570,7 @@
 				TargetAttributes = {
 					04CD36C51D3380BB0053D195 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LTBD6FYCW3;
 					};
 					04CD36DE1D3380BC0053D195 = {
 						CreatedOnToolsVersion = 7.2;
@@ -606,6 +610,7 @@
 				04CD36D91D3380BB0053D195 /* LaunchScreen.storyboard in Resources */,
 				04CD36D61D3380BB0053D195 /* Assets.xcassets in Resources */,
 				04CD36D41D3380BB0053D195 /* Main.storyboard in Resources */,
+				0411642F1E2B6F8700C53143 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,6 +777,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTBD6FYCW3;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/FFmpeg_Test/FFmpeg-iOS/include";
 				INFOPLIST_FILE = FFmpeg_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -788,6 +794,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTBD6FYCW3;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/FFmpeg_Test/FFmpeg-iOS/include";
 				INFOPLIST_FILE = FFmpeg_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -867,6 +874,7 @@
 				04CD36F51D3380BC0053D195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04CD36F61D3380BC0053D195 /* Build configuration list for PBXNativeTarget "FFmpeg_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -875,6 +883,7 @@
 				04CD36F81D3380BC0053D195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04CD36F91D3380BC0053D195 /* Build configuration list for PBXNativeTarget "FFmpeg_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -883,6 +892,7 @@
 				04CD36FB1D3380BC0053D195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
